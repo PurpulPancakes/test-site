@@ -1,0 +1,50 @@
+@charset "utf-8";
+@font-face {
+    font-family: DIN;
+    src:url(D-DIN-Bold.ttf) format('truetype'),
+    url(D-DIN-Bold.woff2) format('woff2'),
+    url(D-DIN-Bold.woff) format('woff');
+}
+html{
+    background: linear-gradient(rgb(219, 219, 219), rgb(165, 165, 165));
+    text-align: center;
+    font-size: 2em;
+    font-family: DIN;
+    letter-spacing: 1px;
+}
+h3{
+    color: rgb(154, 63, 214);
+    text-shadow: rgb(64, 11, 100) 1px 1px 1px, rgb(64, 11, 100) 2px 2px 1px, rgb(64, 11, 100) 3px 3px 1px;
+}
+h1{
+    color: rgb(154, 63, 214);
+    text-shadow: rgb(64, 11, 100) 1px 1px 1px, rgb(64, 11, 100) 2px 2px 1px, rgb(64, 11, 100) 3px 3px 1px, rgb(64, 11, 100) 4px 4px 1px, rgb(64, 11, 100) 5px 5px 1px;
+}
+section#Contact p{
+    color: rgb(154, 63, 214);
+}
+section#About{
+    background-color: rgb(154, 63, 214);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(64, 11, 100) -10px -10px 8px inset, rgb(205, 139, 248) 10px 10px 8px inset, rgba(0, 0, 0, 0.5) 5px 5px 3px;
+}
+section#Nintendo{
+    background-color: rgb(154, 63, 214);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(64, 11, 100) -10px -10px 8px inset, rgb(205, 139, 248) 10px 10px 8px inset, rgba(0, 0, 0, 0.5) 5px 5px 3px;
+}
+section#About p{
+    color: rgb(123, 214, 63);
+    padding: 25px;
+}
+section#Nintendo p{
+    color: rgb(123, 214, 63);
+    padding: 25px;
+}
+section#Contact article p{
+    text-shadow: rgb(64, 11, 100) 1px 1px 1px, rgb(64, 11, 100) 2px 2px 1px, rgb(64, 11, 100) 3px 3px 1px;
+}
