@@ -24,27 +24,111 @@ section#Contact p{
     color: rgb(154, 63, 214);
 }
 section#About{
-    background-color: rgb(154, 63, 214);
+    background-color: rgb(119, 46, 168);
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: rgb(64, 11, 100) -10px -10px 8px inset, rgb(205, 139, 248) 10px 10px 8px inset, rgba(0, 0, 0, 0.5) 5px 5px 3px;
+    box-shadow: rgb(64, 11, 100) -10px -10px 8px inset, rgb(194, 109, 250) 10px 10px 8px inset, rgba(0, 0, 0, 0.5) 5px 5px 3px;
 }
 section#Nintendo{
-    background-color: rgb(154, 63, 214);
+    background-color: rgb(119, 46, 168);
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: rgb(64, 11, 100) -10px -10px 8px inset, rgb(205, 139, 248) 10px 10px 8px inset, rgba(0, 0, 0, 0.5) 5px 5px 3px;
+    box-shadow: rgb(64, 11, 100) -10px -10px 8px inset, rgb(194, 109, 250) 10px 10px 8px inset, rgba(0, 0, 0, 0.5) 5px 5px 3px;
+    display: block;
+    width: 80%;
+    padding-left: auto;
+    padding-right: auto;
 }
 section#About p{
-    color: rgb(123, 214, 63);
+    color: rgb(235,248,226);
+    text-shadow: rgb(63, 87, 45) 1px 1px 1px, rgb(63, 87, 45) 2px 2px 1px;
     padding: 25px;
+    text-align: center;
 }
 section#Nintendo p{
-    color: rgb(123, 214, 63);
+    color: rgb(235,248,226);
+    text-shadow: rgb(63, 87, 45) 1px 1px 1px, rgb(63, 87, 45) 2px 2px 1px;
     padding: 25px;
+    text-align: center;
 }
 section#Contact article p{
+    text-shadow: rgb(64, 11, 100) 1px 1px 1px, rgb(64, 11, 100) 2px 2px 1px, rgb(64, 11, 100) 3px 3px 1px;
+}
+body img{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+section#Nintendo_PreviousWork{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+nav#Images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-right: 35px; 
+    padding-left: 35px;
+}
+aside#Prev_Work{
+    display: block;
+    width: 80%;
+}
+section#SkillsIntro{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+aside#Prev_Work h3{
+    padding-left: 25%;
+}
+section#Skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 0.6em;
+    padding-right: 35px; 
+    padding-left: 35px;
+}
+section#InterestsIntro{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+section#Interests{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 0.6em;
+    padding-right: 35px; 
+    padding-left: 35px;
+}
+section#ContactText{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+section#Contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 0.6em;
+    padding-right: 35px; 
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+article img{
+    display: block;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+section#Contact article img{
+    display: block;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+section#Skills article p{
+    color: rgb(154, 63, 214);
+    text-shadow: rgb(64, 11, 100) 1px 1px 1px, rgb(64, 11, 100) 2px 2px 1px, rgb(64, 11, 100) 3px 3px 1px;
+}
+section#Interests article p{
+    color: rgb(154, 63, 214);
     text-shadow: rgb(64, 11, 100) 1px 1px 1px, rgb(64, 11, 100) 2px 2px 1px, rgb(64, 11, 100) 3px 3px 1px;
 }
