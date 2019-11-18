@@ -7,6 +7,7 @@
 }
 html{
     background: linear-gradient(rgb(219, 219, 219), rgb(165, 165, 165));
+    align-content: center;
     text-align: center;
     font-size: 2em;
     font-family: DIN;
@@ -15,6 +16,8 @@ html{
 h3{
     color: rgb(154, 63, 214);
     text-shadow: rgb(64, 11, 100) 1px 1px 1px, rgb(64, 11, 100) 2px 2px 1px, rgb(64, 11, 100) 3px 3px 1px;
+    padding-right: 0%;
+    text-align: center;
 }
 h1{
     color: rgb(154, 63, 214);
@@ -43,37 +46,52 @@ section#Nintendo{
 }
 section#About p{
     color: rgb(235,248,226);
-    text-shadow: rgb(63, 87, 45) 1px 1px 1px, rgb(63, 87, 45) 2px 2px 1px;
+    text-shadow: rgb(63, 87, 45) 1px 1px 1px, rgb(63, 87, 45) 2px 2px 1px, rgb(63, 87, 45) 3px 3px 1px;
     padding: 25px;
     text-align: center;
 }
 section#Nintendo p{
     color: rgb(235,248,226);
-    text-shadow: rgb(63, 87, 45) 1px 1px 1px, rgb(63, 87, 45) 2px 2px 1px;
+    text-shadow: rgb(63, 87, 45) 1px 1px 1px, rgb(63, 87, 45) 2px 2px 1px, rgb(63, 87, 45) 3px 3px 1px;
     padding: 25px;
     text-align: center;
 }
 section#Contact article p{
     text-shadow: rgb(64, 11, 100) 1px 1px 1px, rgb(64, 11, 100) 2px 2px 1px, rgb(64, 11, 100) 3px 3px 1px;
 }
-body img{
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
 section#Nintendo_PreviousWork{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-nav#Images{
+@keyframes moveleft {
+    0% { transform: translateX(11.2%); }
+    100% { transform: translateX(-35.65%); }
+}
+@keyframes moveright {
+    0% { transform: translateX(-35.65%); }
+    100% { transform: translateX(11.2%); }
+}
+section#TopImages{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.0002fr 0.0002fr;
     padding-right: 35px; 
     padding-left: 35px;
+    width: 150%;
+    animation: moveleft 2s infinite;
+}
+section#BottomImages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.0002fr 0.0002fr;
+    padding-right: 35px; 
+    padding-left: 35px;
+    width: 150%;
+    animation: moveright 2s infinite;
 }
 aside#Prev_Work{
     display: block;
-    width: 80%;
+    width: 100%;
 }
 section#SkillsIntro{
     padding-top: 35px;
@@ -131,4 +149,14 @@ section#Skills article p{
 section#Interests article p{
     color: rgb(154, 63, 214);
     text-shadow: rgb(64, 11, 100) 1px 1px 1px, rgb(64, 11, 100) 2px 2px 1px, rgb(64, 11, 100) 3px 3px 1px;
+}
+nav img{
+    display: block;
+    width: 100%;
+}
+body > img{
+    display: block;
+    width: 25%;
+    padding-left: 37%;
+    padding-top: 5%;
 }
