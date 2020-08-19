@@ -6,7 +6,7 @@
     url(D-DIN-Bold.woff) format('woff');
 }
 html{
-    background: linear-gradient(rgb(219, 219, 219), rgb(165, 165, 165));
+    background: linear-gradient(rgb(219, 219, 219), rgb(187, 187, 187));
     align-content: center;
     text-align: center;
     font-size: 2em;
@@ -46,13 +46,13 @@ section#Nintendo{
 }
 section#About p{
     color: rgb(235,248,226);
-    text-shadow: rgb(63, 87, 45) 1px 1px 1px, rgb(63, 87, 45) 2px 2px 1px, rgb(63, 87, 45) 3px 3px 1px;
+    text-shadow: rgb(64, 11, 100) 1px 1px 1px, rgb(64, 11, 100) 2px 2px 1px, rgb(64, 11, 100) 3px 3px 1px;
     padding: 25px;
     text-align: center;
 }
 section#Nintendo p{
     color: rgb(235,248,226);
-    text-shadow: rgb(63, 87, 45) 1px 1px 1px, rgb(63, 87, 45) 2px 2px 1px, rgb(63, 87, 45) 3px 3px 1px;
+    text-shadow: rgb(64, 11, 100) 1px 1px 1px, rgb(64, 11, 100) 2px 2px 1px, rgb(64, 11, 100) 3px 3px 1px;
     padding: 25px;
     text-align: center;
 }
@@ -96,6 +96,10 @@ nav#Images{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     width: 100%;
+}
+nav#Images img#a:hover{
+    align-content: center;
+    width: 110%;
 }
 section#SkillsIntro{
     padding-top: 35px;
@@ -180,4 +184,10 @@ body > img{
     width: 25%;
     padding-left: 37%;
     padding-top: 5%;
+}
+section#Nintendo{
+    line-height: 1.2;
+}
+section#About{
+    line-height: 1.2;
 }
