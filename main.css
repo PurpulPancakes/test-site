@@ -95,11 +95,19 @@ nav#Images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 20px;
     width: 100%;
 }
-nav#Images img#a:hover{
+nav#Images img{
+    border: outset rgb(119, 46, 168) 10px;
+    transition: .5s;
+}
+nav#Images img:hover{
     align-content: center;
-    width: 110%;
+    width: 108%;
+    border: outset rgb(119, 46, 168) 6.4px;
+    z-index: 100;
+    transition: .2s;
 }
 section#SkillsIntro{
     padding-top: 35px;
